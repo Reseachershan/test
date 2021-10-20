@@ -7,7 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
+<script>
+    function myclick(){
+      document.getElementById('class').innerHTML="no a file"
+
+    }
+</script>
 <body>
-    <h1 class="heading">this is a file</h1>
+    <button onclick="myclick()">clickme</button>
+    <h1 id="class" class="heading">this is a file</h1>
 </body>
 </html>
